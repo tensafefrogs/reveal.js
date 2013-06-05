@@ -563,7 +563,7 @@ var Reveal = (function(){
 					continue;
 				}
 
-				// Vertical stacks are not centered since their section 
+				// Vertical stacks are not centered since their section
 				// children will be
 				if( slide.classList.contains( 'stack' ) ) {
 					slide.style.top = 0;
@@ -594,7 +594,7 @@ var Reveal = (function(){
 	}
 
 	/**
-	 * Retrieves the vertical index which was stored using 
+	 * Retrieves the vertical index which was stored using
 	 * #setPreviousVerticalIndex() or 0 if no previous index
 	 * exists.
 	 *
@@ -1066,7 +1066,7 @@ var Reveal = (function(){
 			var slideAutoSlide = slides[index].getAttribute( 'data-autoslide' );
 			if( slideAutoSlide ) {
 				autoSlide = parseInt( slideAutoSlide, 10 );
-			} 
+			}
 			else {
 				autoSlide = config.autoSlide;
 			}
