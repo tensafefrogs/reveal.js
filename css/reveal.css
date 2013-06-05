@@ -352,8 +352,8 @@ body {
 .reveal .controls div {
 	position: absolute;
 	opacity: 0.1;
-	width: 0; 
-	height: 0; 
+	width: 0;
+	height: 0;
 	border: 12px solid transparent;
 
 	-webkit-transition: opacity 0.2s ease;
@@ -531,11 +531,11 @@ body {
 .reveal .slides {
 	position: absolute;
 	max-width: 900px;
-	min-height: 600px;
+	/*min-height: 600px;*/
 	width: 80%;
 	left: 50%;
 	top: 50%;
-	
+
 	overflow: visible;
 	z-index: 1;
 	text-align: center;
